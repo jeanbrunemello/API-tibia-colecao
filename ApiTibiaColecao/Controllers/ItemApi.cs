@@ -2,13 +2,17 @@
 using ApiTibiaColecao.Dto;
 using ApiTibiaColecao.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace ApiTibiaColecao.Controllers
 {
 
     [ApiController]
     [Route("[controller]")]
+    [EnableCors("MyAllowSpecificOrigins")]
     public class ItemApi : ControllerBase
     {
 
@@ -45,6 +49,12 @@ namespace ApiTibiaColecao.Controllers
 
             var itemDto = ControllerAutoMapper.Map<GetItemDto>(item);
             return Ok(itemDto);
+        }
+
+        [HttpGet("category/{categoria}")]
+        public IEnumerable<GetItemDto> GetAllItems(string categoria)
+        {
+            return ControllerAutoMapper.Map<List<GetItemDto>>(ControllerContext.Items.Where(busca => busca.categoria == categoria));
         }
 
         [HttpGet("{id}")]
