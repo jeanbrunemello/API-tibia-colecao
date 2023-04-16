@@ -4,6 +4,7 @@ namespace ApiTibiaColecao.Dto
 {
     public class GetItemDto
     {
+        public string Id { get; set; }
         public string nome { get; set; }
 
         public string categoria { get; set; }
