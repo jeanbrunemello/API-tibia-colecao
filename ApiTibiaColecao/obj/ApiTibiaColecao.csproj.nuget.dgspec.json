@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\webdev\\Projetos pessoais\\ApiTibiaColecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj": {}
+    "C:\\Users\\jean\\Desktop\\webdev\\API-tibia-colecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\webdev\\Projetos pessoais\\ApiTibiaColecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj": {
+    "C:\\Users\\jean\\Desktop\\webdev\\API-tibia-colecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\webdev\\Projetos pessoais\\ApiTibiaColecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj",
+        "projectUniqueName": "C:\\Users\\jean\\Desktop\\webdev\\API-tibia-colecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj",
         "projectName": "ApiTibiaColecao",
-        "projectPath": "D:\\Documentos\\webdev\\Projetos pessoais\\ApiTibiaColecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj",
-        "packagesPath": "C:\\Users\\Satan\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\webdev\\Projetos pessoais\\ApiTibiaColecao\\ApiTibiaColecao\\obj\\",
+        "projectPath": "C:\\Users\\jean\\Desktop\\webdev\\API-tibia-colecao\\ApiTibiaColecao\\ApiTibiaColecao.csproj",
+        "packagesPath": "C:\\Users\\jean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jean\\Desktop\\webdev\\API-tibia-colecao\\ApiTibiaColecao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Satan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jean\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

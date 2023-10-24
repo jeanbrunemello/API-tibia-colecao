@@ -75,7 +75,7 @@ namespace ApiTibiaColecao.Controllers
 
             ControllerAutoMapper.Map(itemDto, item);
             ControllerContext.SaveChanges();
-            return NoContent();
+            return Ok(item);
         }
 
         [HttpDelete("{id}")]
